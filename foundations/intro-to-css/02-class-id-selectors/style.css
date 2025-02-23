@@ -1,4 +1,13 @@
-.Odds{
+.odds{
     font-family: Verdana, "DejaVu Sans", sans-serif;
     background-color: rgb(255, 133, 247)
+}
+
+#number-2{
+    color: #0e11ff;
+    font-size: 36px;
+}
+
+.cooler{
+    font-size: 24px;
 }
