@@ -6,6 +6,7 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -24,33 +25,55 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-bottom: 10px;
 }
 
-.hearder{
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .content{
   display: flex;
   flex-direction: column;
-  border: 2px solid blueviolet;
-  align-content: space-evenly;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  align-content: center;
+  flex-grow: 1;
 }
-
-.input{
-  padding: 15px;
-}
-
 
 .footer{
   display: flex;
-  flex-direction: column;
-  border: 2px solid salmon;
-  align-content: flex-end;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #eeeeee;
+  padding: 10px;
+}
+
+.right-links{
+  display: flex;
+  gap: 10px;
+}
+
+.left-links{
+  display: flex;
+  gap: 10px;
 }
